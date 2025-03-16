@@ -6,7 +6,8 @@ repos:
   copr:
     - solopasha/hyprland
 install:
-  - from-repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+  packages:
+  - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
     packages:
       - hyprland
       - waybar
