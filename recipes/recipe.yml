@@ -17,5 +17,7 @@ modules:
       - source: system
         destination: /
 
+  - from-file: common-dnf.yml
+
   - type: signing
 
