@@ -2,18 +2,11 @@
 #
 type: dnf
 source: ghcr.io/blue-build/modules/dnf:dnf-module
-#repos:
-#  copr:
-#    - solopasha/hyprland
-#install:
-#  packages:
-#  - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-#    packages:
-#      - hyprland
-#      - waybar
-
+repos:
+  copr:
+    - solopasha/hyprland
 install:
   packages:
-    - repo: copr:copr.fedorainfracloud.org:trixieua:mutter-patched
-      packages:
-        - mutter
+    - hyprland
+    - waybar
+
