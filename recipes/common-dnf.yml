@@ -7,6 +7,8 @@ modules:
     - from-repo: updates-archive
       packages:
         - dnf5-5.2.10.0-2.fc41
+  type: dnf
+  source: ghcr.io/blue-build/modules/dnf:dnf-module
   repos:
     copr:
       - solopasha/hyprland
