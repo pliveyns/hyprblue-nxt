@@ -1,19 +1,19 @@
 # common-dnf.yml
 #
 modules:
-  type: dnf
-  source: ghcr.io/blue-build/modules/dnf:dnf-module
-  replace:
-    - from-repo: updates-archive
+  - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    replace:
+      - from-repo: updates-archive
+        packages:
+          - dnf5-5.2.10.0-2.fc41
+  - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    repos:
+      copr:
+        - solopasha/hyprland
+    install:
       packages:
-        - dnf5-5.2.10.0-2.fc41
-  type: dnf
-  source: ghcr.io/blue-build/modules/dnf:dnf-module
-  repos:
-    copr:
-      - solopasha/hyprland
-  install:
-    packages:
-      - hyprland
-      - waybar
+        - hyprland
+        - waybar
 
