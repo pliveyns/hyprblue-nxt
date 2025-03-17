@@ -1,7 +1,7 @@
 # common-dnf.yml
 #
 type: dnf
-source: ghcr.io/blue-build/modules/dnf:dnf-module
+source: ghcr.io/blue-build/modules/dnf:dnf-module-gmpinder
 repos:
   copr:
     - solopasha/hyprland
