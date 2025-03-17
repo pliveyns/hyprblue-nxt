@@ -1,0 +1,3 @@
+type: script
+snippets:
+  - dnf5 install 'dnf5-command(copr)'
