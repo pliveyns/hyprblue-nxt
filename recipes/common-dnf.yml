@@ -1,12 +1,13 @@
 # common-dnf.yml
 #
-type: dnf
-source: ghcr.io/blue-build/modules/dnf:dnf-module
-repos:
-  copr:
-    - solopasha/hyprland
-install:
-  packages:
-    - hyprland
-    - waybar
+modules:
+  type: dnf
+  source: ghcr.io/blue-build/modules/dnf:dnf-module
+  repos:
+    copr:
+      - solopasha/hyprland
+  install:
+    packages:
+      - hyprland
+      - waybar
 
