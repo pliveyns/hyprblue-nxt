@@ -22,5 +22,7 @@ modules:
 
   - from-file: common-dnf.yml
 
+  - from-file: sddm-modules.yml
+
   - type: signing
 
