@@ -1,20 +1,20 @@
 modules: 
-    - type: dnf
-      source: ghcr.io/blue-build/modules/dnf:dnf-module
-      install:
-        - sddm
-        - sddm-themes
-        - qt5-qtgraphicaleffects
-        - qt5-qtquickcontrols2
-        - qt5-qtsvg
-        - kwallet
-        - pam-kwallet
+  - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    install:
+      - sddm
+      - sddm-themes
+      - qt5-qtgraphicaleffects
+      - qt5-qtquickcontrols2
+      - qt5-qtsvg
+      - kwallet
+      - pam-kwallet
 
-    #- type: script
-    #  scripts:
-    #    - setsddmtheming.sh
+  #- type: script
+  #  scripts:
+  #    - setsddmtheming.sh
 
-    - type: systemd
-      system:
-        enabled:
-          - sddm-boot.service
+  - type: systemd
+    system:
+      enabled:
+        - sddm-boot.service
