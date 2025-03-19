@@ -1,0 +1,17 @@
+# common-dnf.yml
+#
+modules:
+  - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    repos:
+      copr:
+        - solopasha/hyprland
+    install:
+      packages:
+        - hyprland
+        - waybar
+        - xdg-desktop-portala-hyprland
+        - hyprpaper
+        - hyprlock
+        - hypridle
+
