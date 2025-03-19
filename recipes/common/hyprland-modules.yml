@@ -10,7 +10,7 @@ modules:
       packages:
         - hyprland
         - waybar
-        - xdg-desktop-portala-hyprland
+        - xdg-desktop-portal-hyprland
         - hyprpaper
         - hyprlock
         - hypridle
