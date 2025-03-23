@@ -1,5 +1,6 @@
 modules:
   - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
     repos:
       files:
         - netbird.repo
