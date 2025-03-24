@@ -10,4 +10,8 @@ modules:
         - libappindicator-gtk3
         - libappindicator
         - netbird-ui
+  - type: systemd
+    system:
+      enabled:
+        - netbird.service
 
