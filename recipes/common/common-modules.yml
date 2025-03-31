@@ -19,3 +19,6 @@ modules:
     snippets:
       - "dnf5 install -y 'dnf5-command(copr)'"
 
+  - type: containerfile
+    snippets:
+      - COPY --from=ghcr.io/ublue-os/config:latest /rpms/ublue-os-just.noarch.rpm
