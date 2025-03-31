@@ -9,7 +9,10 @@ modules:
     install:
       packages:
         - hyprland
-        - waybar
+        - hyprland-uwsm
+        - sddm
+        - hyprpanel
+        - wofi
         - xdg-desktop-portal-hyprland
         - hyprpaper
         - hyprlock
