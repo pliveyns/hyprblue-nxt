@@ -21,4 +21,4 @@ modules:
 
   - type: containerfile
     snippets:
-      - COPY --from=ghcr.io/ublue-os/config:latest /rpms/ublue-os-just.noarch.rpm
+      - COPY --from=ghcr.io/ublue-os/config:latest /rpms/ublue-os-just.noarch.rpm /
