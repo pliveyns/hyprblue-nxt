@@ -18,6 +18,7 @@ modules:
   - from-file: common/hyprland-modules.yml
   - from-file: common/netbird-modules.yml
   - from-file: common/justfiles-modules.yml
+  - from-file: common/chezmoi-modules.yml
 
   - type: signing
 
