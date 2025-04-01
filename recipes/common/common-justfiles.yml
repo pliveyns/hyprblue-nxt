@@ -1,5 +1,0 @@
-modules:
-  - type: justfiles
-    validate: false
-    include:
-      - 110-myscripts.just
