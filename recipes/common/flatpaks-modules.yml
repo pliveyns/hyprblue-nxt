@@ -13,6 +13,6 @@ modules:
         - org.gnome.Loupe
         - org.gnome.Snapshot
         - org.gnome.Photos
-        - org.github.rafostar.Clapper
+        - com.github.rafostar.Clapper
         - fr.handbrake.ghb
         - com.spotify.Client
