@@ -1,6 +1,6 @@
 modules:
 
-  - type: rpm-ostree
+  - type: dnf
     source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       #- bridge-utils      # network bridge for virtualisation; not really needed on a workstation
