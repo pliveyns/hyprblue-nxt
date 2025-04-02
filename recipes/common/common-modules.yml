@@ -34,6 +34,7 @@ modules:
       - RUN rpm -ivh /ublue-os-just.noarch.rpm
 
   - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       packages:
         - langpacks-en
