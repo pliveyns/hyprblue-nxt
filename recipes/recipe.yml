@@ -19,6 +19,8 @@ modules:
   - from-file: common/netbird-modules.yml
   - from-file: common/justfiles-modules.yml
   - from-file: common/chezmoi-modules.yml
+  - from-file: common/flatpaks-modules.yml
+  - from-file: common/virtualisation-modules.yml
 
   - type: signing
 

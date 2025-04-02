@@ -1,6 +1,7 @@
 modules:
 
   - type: rpm-ostree
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       #- bridge-utils      # network bridge for virtualisation; not really needed on a workstation
       #- vagrant-libvirt   # vagrant install        #Dependencies are broken
