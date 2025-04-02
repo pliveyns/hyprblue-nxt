@@ -33,3 +33,13 @@ modules:
       - RUN rpm -ivh /ublue-os-luks.noarch.rpm
       - RUN rpm -ivh /ublue-os-just.noarch.rpm
 
+  - type: dnf
+    install:
+      packages:
+        - langpacks-en
+        - langpacks-en_GB
+        - alacritty
+        - gparted
+        - syncthing
+        - cascadia-fonts-all
+        - fzf

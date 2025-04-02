@@ -17,4 +17,5 @@ modules:
         - hyprpaper
         - hyprlock
         - hypridle
+        - wlogout
 

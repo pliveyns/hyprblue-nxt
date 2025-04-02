@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb-serial", OWNER="peter"
+SUBSYSTEM=="tty", DRIVERS=="cdc_acm", OWNER="peter"

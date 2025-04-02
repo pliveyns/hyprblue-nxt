@@ -1,0 +1,18 @@
+modules:
+  - type: default-flatpaks
+    notify: true
+    system:
+      install:
+        # Internet
+        - org.mozilla.firefox
+        - io.gitlab.librewolf-community
+        - org.filezillaproject.filezillaproject
+        #- nz.mega.MEGAsync
+
+        # Photo, Music & Video
+        - org.gnome.Loupe
+        - org.gnome.Snapshot
+        - org.gnome.Photos
+        - org.github.rafostar.Clapper
+        - fr.handbrake.ghb
+        - com.spotify.Client
