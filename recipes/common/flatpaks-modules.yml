@@ -6,7 +6,7 @@ modules:
         # Internet
         - org.mozilla.firefox
         - io.gitlab.librewolf-community
-        - org.filezillaproject.filezillaproject
+        - org.filezillaproject.Filezilla
         #- nz.mega.MEGAsync
 
         # Photo, Music & Video
