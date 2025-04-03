@@ -38,7 +38,7 @@ modules:
     install:
       packages:
         #- langpacks-en
-        #- langpacks-en_GB
+        - langpacks-en_GB
         - alacritty
         #- gparted
         - syncthing
