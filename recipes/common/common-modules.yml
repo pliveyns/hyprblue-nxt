@@ -37,8 +37,8 @@ modules:
     source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       packages:
-        - langpacks-en
-        - langpacks-en_GB
+        #- langpacks-en
+        #- langpacks-en_GB
         - alacritty
         - gparted
         - syncthing
