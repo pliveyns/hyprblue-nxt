@@ -44,3 +44,7 @@ modules:
         - syncthing
         - cascadia-fonts-all
         - fzf
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
