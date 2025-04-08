@@ -16,6 +16,7 @@ modules:
         #- wofi
         - rofi-wayland
         - xdg-desktop-portal-hyprland
+        - xdg-desktop-portal-gtk
         - hyprpaper
         - hyprlock
         - hypridle
