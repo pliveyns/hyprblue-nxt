@@ -11,8 +11,10 @@ modules:
         - hyprland
         - hyprland-uwsm
         - sddm
-        - hyprpanel
-        - wofi
+        #- hyprpanel
+        - waybar
+        #- wofi
+        - rofi-wayland
         - xdg-desktop-portal-hyprland
         - hyprpaper
         - hyprlock
