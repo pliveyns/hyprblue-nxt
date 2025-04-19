@@ -22,3 +22,7 @@ modules:
         - hypridle
         - wlogout
 
+  - type: systemd
+    user:
+      enabled:
+        - waybar.service
