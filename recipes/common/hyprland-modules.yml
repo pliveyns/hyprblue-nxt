@@ -6,6 +6,7 @@ modules:
     repos:
       copr:
         - solopasha/hyprland
+        - heus-sueh/packages
     install:
       packages:
         - hyprland
@@ -18,9 +19,16 @@ modules:
         - xdg-desktop-portal-hyprland
         - xdg-desktop-portal-gtk
         - hyprpaper
+        - waypaper
         - hyprlock
         - hypridle
         - wlogout
+        - fontawesome-fonts-all
+        - matugen
+        - grim
+        - slurp
+        - grimblast
+        - cliphist
 
   - type: systemd
     user:
