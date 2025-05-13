@@ -20,6 +20,7 @@ modules:
   - from-file: common/justfiles-modules.yml
   - from-file: common/chezmoi-modules.yml
   - from-file: common/flatpaks-modules.yml
+  - from-file: common/fonts-modules.yml
   - from-file: common/virtualisation-modules.yml
 
   - type: signing
