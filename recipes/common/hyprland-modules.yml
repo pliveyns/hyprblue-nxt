@@ -2,7 +2,7 @@
 #
 modules:
   - type: dnf
-    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    #source: ghcr.io/blue-build/modules/dnf:dnf-module
     repos:
       copr:
         - solopasha/hyprland
