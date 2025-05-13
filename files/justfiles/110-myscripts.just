@@ -40,7 +40,7 @@ toolbox-bluebox:
     echo "The toolbx bluebox already exists and will not be installed"
   else
     echo "Installing bluebox toolbx"
-    toolbox create -y -i ghcr.io/pliveyns/bluebox -c bluebox
+    toolbox create -y -i ghcr.io/pliveyns/bluebox-cli -c bluebox
   fi
 
 # Install iotbox toolbox: ghcr.io/pliveyns/iotbox
@@ -54,7 +54,7 @@ toolbox-iotbox:
     echo "The toolbx iotbox already exists and will not be installed"
   else
     echo "Installing iotbox toolbx"
-    toolbox create -y -i ghcr.io/pliveyns/iotbox -c iotbox
+    toolbox create -y -i ghcr.io/pliveyns/iotbox-cli -c iotbox
   fi
 
 # Set firefox as default default browser
