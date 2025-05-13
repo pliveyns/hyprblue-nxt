@@ -10,7 +10,7 @@ modules:
         - Roboto
         - Open Sans
 
-  - dnf:
+  - type: dnf
     install:
       packages:
         - fontawesome-fonts-all
