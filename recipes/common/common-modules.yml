@@ -44,7 +44,7 @@ modules:
         - syncthing
         - fzf
         - distrobox
-        - gnome-software    # Needed for default flatpaks v2 ??
+        #- gnome-software    # Needed for default flatpaks v2 ??
     remove:
       packages:
         - firefox

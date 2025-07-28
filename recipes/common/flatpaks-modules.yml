@@ -1,48 +1,47 @@
 modules:
-  - type: default-flatpaks
-    configurations:
-      - notify: true
-        scope: system
-        install:
-          # Internet
-          - org.mozilla.firefox
-          - io.gitlab.librewolf-community
-          - org.filezillaproject.Filezilla
-          #- nz.mega.MEGAsync
+  - type: default-flatpaks@v1
+    notify: true
+    system:
+      install:
+        # Internet
+        - org.mozilla.firefox
+        - io.gitlab.librewolf-community
+        - org.filezillaproject.Filezilla
+        #- nz.mega.MEGAsync
 
-          # Photo, Music & Video
-          - org.gnome.Loupe
-          - org.gnome.Snapshot
-          - org.gnome.Photos
-          - com.github.rafostar.Clapper
-          - fr.handbrake.ghb
-          - com.spotify.Client
+        # Photo, Music & Video
+        - org.gnome.Loupe
+        - org.gnome.Snapshot
+        - org.gnome.Photos
+        - com.github.rafostar.Clapper
+        - fr.handbrake.ghb
+        - com.spotify.Client
+       
+        # Office
+        - org.libreoffice.LibreOffice          # The LibreOffice productivity suite
+        - org.gnome.Papers                     # Documents reader
+        - com.logseq.Logseq                    # Connect your notes and knowledge
+        - com.github.johnfactotum.Foliate      # Foliate ebook reader
+        - com.github.marktext.marktext         # MarkText markdown tool
+        #- org.gnome.SimpleScan                 # Gnome Document Scanner
         
-          # Office
-          - org.libreoffice.LibreOffice          # The LibreOffice productivity suite
-          - org.gnome.Papers                     # Documents reader
-          - com.logseq.Logseq                    # Connect your notes and knowledge
-          - com.github.johnfactotum.Foliate      # Foliate ebook reader
-          - com.github.marktext.marktext         # MarkText markdown tool
-          #- org.gnome.SimpleScan                 # Gnome Document Scanner
-        
-          # Security
-          - com.bitwarden.desktop                # Bitwarden password tool
-          - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
+        # Security
+        - com.bitwarden.desktop                # Bitwarden password tool
+        - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
 
-          # Messaging
-          - social.whalebird.WhalebirdDesktop    # Whalebird mastodon client
-          - im.riot.Riot                         # Element app; matrix client
-          #- dev.vencord.Vesktop                  # Discord App
+        # Messaging
+        - social.whalebird.WhalebirdDesktop    # Whalebird mastodon client
+        - im.riot.Riot                         # Element app; matrix client
+        #- dev.vencord.Vesktop                  # Discord App
 
-          # Utilities
-          - org.gnome.FileRoller                 # FileRoller (un)archive app
-          #- org.gnome.Extensions                 # Manage Gnome Extensions
-          #- com.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
-          #- org.gnome.Connections                # Gnome Connections
-          - org.fedoraproject.MediaWriter        # Fedora Media Writer
-          - com.github.tchx84.Flatseal           # Manage Flatpak Permissions
-          - org.gnome.Calculator                 # Gnome Calculator
+        # Utilities
+        - org.gnome.FileRoller                 # FileRoller (un)archive app
+        #- org.gnome.Extensions                 # Manage Gnome Extensions
+        #- com.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
+        #- org.gnome.Connections                # Gnome Connections
+        - org.fedoraproject.MediaWriter        # Fedora Media Writer
+        - com.github.tchx84.Flatseal           # Manage Flatpak Permissions
+        - org.gnome.Calculator                 # Gnome Calculator
 
-          # DevOps
-          - com.vscodium.codium                  # VSCodium Code Editor
+        # DevOps
+        - com.vscodium.codium                  # VSCodium Code Editor
